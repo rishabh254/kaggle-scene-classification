@@ -1,4 +1,4 @@
-# kaggle-scene-classification
+# kaggle-scene-classification (#1 ranked submission)
 Implementing k-means algorithm from scratch, testing it on digit data. Further, using it to learn visual vocabulary for scene representation and then using LibSVM with RBF kernel to classify scenes from the popular Tv Series- The Big Bang Theory
 
 To know more about the competition please follow the link: 
