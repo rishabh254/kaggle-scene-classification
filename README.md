@@ -31,6 +31,7 @@ that comes with these two functions with exactly the same names. However, Matlab
 LibSVM. To check if you have installed the program correctly, in Matlab do: <br>
 * which svmtrain
 * which svmpredict
+<br>
 Matlab should return the paths to the svmtrain and svmpredict of LibSVM. To learn how to use these
 functions, type the names of the function in Matlab: <br>
 * svmtrain
