@@ -30,11 +30,10 @@ pay attention to are: svmtrain and svmpredict. Note that Matlab also has a machi
 that comes with these two functions with exactly the same names. However, Matlab’s SVM implementation is not as good as LibSVM, so you need to make sure that you are using svmtrain and svmpredict from
 LibSVM. To check if you have installed the program correctly, in Matlab do: <br>
 * which svmtrain
-* which svmpredict
-<br>
+* which svmpredict<br>
 Matlab should return the paths to the svmtrain and svmpredict of LibSVM. To learn how to use these
 functions, type the names of the function in Matlab: <br>
-* svmtrain
+* svmtrain<br>
 * svmpredict
 
 # Code:
