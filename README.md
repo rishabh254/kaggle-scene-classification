@@ -12,17 +12,12 @@ Please note that there aren’t IDs for the digits. Please assume the first line
 2, and so on. The labels correspond to the digit file, so the first line of labels.txt is the label for the digit in
 the first line of digit.txt.
 
-2. Training and test images are to be included in the subdirectory bigbangtheory (Due to constraints, I haven't uploaded them here, feel free to email me if you need the images). The training image ids and
+2. Training and test images are to be included in the subdirectory bigbangtheory (*Due to constraints, I haven't uploaded them here, feel free to email me if you need the images*). The training image ids and
 labels are given in train.mat. This file contains two variables: imgIds and lbs. imgIds is a column
 vector and each row has a name of image in the training set. lbs is a matrix denoting the label for the
 image with the corresponding index. There are total 8 classes for the dataset: living room (1), kitchen (2),
 hallway (3), Penny’s living room (4), cafeteria (5), Cheesecake factory (6), laundry room (7), and comic
-bookstore (8). <br>
-Validation set is not provided for this question. You have to do cross validation to find the parameter for
-the best performance. You can implement cross validation by yourself, or you can use LibSVM functionality.
-Image ids for test set are given in test.mat.
-
-# Install:
+bookstore (8).
 
 # Dependencies:
 Download LibSVM [https://www.csie.ntu.edu.tw/˜cjlin/libsvm/]. Follow the instruction in README to install LibSVM for Matlab. Two main functions of LibSVM that you should
