@@ -30,11 +30,7 @@ pay attention to are: svmtrain and svmpredict. Note that Matlab also has a machi
 that comes with these two functions with exactly the same names. However, Matlab’s SVM implementation is not as good as LibSVM, so you need to make sure that you are using svmtrain and svmpredict from
 LibSVM. To check if you have installed the program correctly, in Matlab do: <br>
 * which svmtrain
-* which svmpredict<br>
-Matlab should return the paths to the svmtrain and svmpredict of LibSVM. To learn how to use these
-functions, type the names of the function in Matlab: <br>
-* svmtrain<br>
-* svmpredict
+* which svmpredict
 
 # Code:
 [HW5_BoW.m](https://github.com/rishabh254/kaggle-scene-classification/blob/master/src/HW5_BoW.m) : contains helper functions to learn visual vocabulary for scene representation and to compute feature vectors. <br />
@@ -42,3 +38,7 @@ functions, type the names of the function in Matlab: <br>
 [kmeans.m](https://github.com/rishabh254/kaggle-scene-classification/blob/master/src/kmeans.m) : contains implementation of k-means algorithm. <br />
 [pair_count_measure.m](https://github.com/rishabh254/kaggle-scene-classification/blob/master/src/pair_count_measure.m) : contains evaluation metric for how well the clusters are formed. <br />
 [within_group_sum_of_squares.m](https://github.com/rishabh254/kaggle-scene-classification/blob/master/src/within_group_sum_of_squares.m) : contains evaluation metric for how well the clusters are formed. <br />
+
+# Results:
+The above implementation got an accuracy of 88.392% and was the top ranked submission .
+![Screenshot (129)](https://user-images.githubusercontent.com/8913742/69660775-06288100-104f-11ea-819e-1458dca0402c.png)
